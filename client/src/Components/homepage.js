@@ -53,7 +53,7 @@ const Homepage = () => {
             </button>
 
             <button onClick={onGetUsers}>
-                Show Users
+                Show User List
             </button>
             <div>
                 {userList.map((user, id) => {
