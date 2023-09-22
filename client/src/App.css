@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(236, 202, 12);
+}
+
+.info-form > input {
+  padding: 8px;
+  font-size: larger;
+}
+
+.info-form > label {
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.info-form > button {
+  padding: 8px;
+  margin-top: 16px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.info-form > button:hover {
+  background-color: #0e0f06;
+  color: white;
+}
